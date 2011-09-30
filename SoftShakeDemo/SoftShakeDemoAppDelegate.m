@@ -26,13 +26,13 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    [self.window release];
     return YES;
 }
 
 - (void)dealloc {
     [super dealloc];
-    [self.viewController release];
+    [_window release];
+    [_viewController release];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
