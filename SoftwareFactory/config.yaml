@@ -13,7 +13,7 @@ clone_folder: '../privatebuild'
 server: 'gris'
 user: 'cfalguiere'
 ssh_path: '~/.ssh/id_rsa'
-www_path: '/Library/WebServer/Documents/mobileserver'
+www_path: '/Library/WebServer/Documents/mobilestore'
 
 sign: 'iPhone Developer'
 users: 'iPad de Valtech'
