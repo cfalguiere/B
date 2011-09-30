@@ -12,7 +12,7 @@
 
 @implementation SoftShakeDemoAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
 @synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
