@@ -122,6 +122,6 @@ task :deploy => [:clean, :build, :package] do
   sh "chmod 600 #{keys}"
   host = "#{CONFIG['user']}@#{SERVER}"
   www_path = CONFIG['www_path']
-  sh "SoftwareFactory/publish.bash #{APPNAME} #{CONFIG['CFBundleVersion']} #{host} #{keys}"
+  sh "SoftwareFactory/publish.bash #{APPNAME} #{CONFIG['CFBundleVersion']} #{host} #{www_path} #{keys}"
 end
 
