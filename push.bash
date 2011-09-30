@@ -44,20 +44,20 @@ git log -n 1 | grep -q -c "wip" && git reset HEAD~1
 
 log "git clone projet to private build"
 
-if [ "${CI_FOLDER}" = "" ]
+if [ "${CLONE_FOLDER}" = "" ]
 then 
-  	exit_ko "missing CI_FOLDER name"
+  	exit_ko "missing CLONE_FOLDER name"
 fi
 if [ -e $FILE ]
 then 
-  rm -Rf $CI_FOLDER
+  rm -Rf $CLONE_FOLDER
 fi
-git clone -slb "${BRANCH}" . "${CI_FOLDER}"
+git clone -slb "${BRANCH}" . "${CLONE_FOLDER}"
 if [ $? -ne 0 ]; then
 	exit_ko "Unable to clone the git repository"
 fi
 
-cd $CI_FOLDER
+cd $CLONE_FOLDER
 
 log "rake package"
 

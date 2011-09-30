@@ -16,14 +16,20 @@ KEY_PATH=$4
 #echo "BUNDLE_VERSION $BUNDLE_VERSION"
 #echo "RHOST $RHOST"
 #echo "KEY_PATH  $KEY_PATH"
-#echo "CI_FOLDER $CI_FOLDER"
+
+#echo "BUILD_FOLDER $BUILD_FOLDER"
+#echo "CLONE_FOLDER $CLONE_FOLDER"
+
+if [ "$BUILD_FOLDER" == "" ]; then
+    BUILD_FOLDER=$CLONE_FOLDER
+fi
+
 
 ### publish process
 
 log "$SCRIPT_NAME: Provisioning $BUNDLE_VERSION ..."
 
-#SOURCE_DIR=${CI_FOLDER}/pkg/${BUNDLE_VERSION}
-SOURCE_DIR=pkg/${BUNDLE_VERSION}
+SOURCE_DIR=${BUILD_FOLDER}/pkg/${BUNDLE_VERSION}
 chmod -R a-wx,a+rX,u+w $SOURCE_DIR
 
 DEST_DIR=/var/www/apps/${PROJECT_NAME}/

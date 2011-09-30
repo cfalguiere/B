@@ -3,7 +3,7 @@ app_name: 'SoftShakeDemo'
 # edit provisioning profile name
 provisioning_profile: 'SoftShakeDemo'
 
-ci_folder: '../privatebuild'
+clone_folder: '../privatebuild'
 
 #server: '10.28.0.38'
 server: '195.244.20.87'

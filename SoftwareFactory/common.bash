@@ -4,7 +4,7 @@
 
 PROJECT_NAME=`grep "^app_name:" SoftwareFactory/config.yaml | sed "s/app_name: '\(.*\)'/\1/"`
 INFO_NAME=${PROJECT_NAME}/${PROJECT_NAME}-Info.Plist
-CI_FOLDER=`grep "^ci_folder:" SoftwareFactory/config.yaml | sed "s/ci_folder: '\(.*\)'/\1/"`
+CLONE_FOLDER=`grep "^clone_folder:" SoftwareFactory/config.yaml | sed "s/clone_folder: '\(.*\)'/\1/"`
 
 
 PROJECT_DIR=$(pwd)
