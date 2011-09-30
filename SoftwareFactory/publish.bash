@@ -3,7 +3,7 @@
 source SoftwareFactory/common.bash
 SCRIPT_NAME="Publish"
 
-if [ $# -ne 4 ]; then
+if [ $# -ne 5 ]; then
 	echo "Usage: $0 PROJECT_NAME BUNDLE_VERSION RHOST WWW_PATH KEY_PATH"
 	exit_ko "Missing parameters $*"
 fi
