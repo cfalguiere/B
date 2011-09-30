@@ -25,6 +25,8 @@
 		DC20148114360B2A00F3EC20 /* SoftShakeDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC20148014360B2A00F3EC20 /* SoftShakeDemoTests.h */; };
 		DC20148314360B2A00F3EC20 /* SoftShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20148214360B2A00F3EC20 /* SoftShakeDemoTests.m */; };
 		DC23177E14363EEF00D91876 /* iTunesArtwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC23177D14363EEF00D91876 /* iTunesArtwork.jpg */; };
+		DC2317801436406000D91876 /* Icon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DC23177F1436406000D91876 /* Icon-57x57.png */; };
+		DC2317821436406900D91876 /* Icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2317811436406900D91876 /* Icon-72x72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		DC20148014360B2A00F3EC20 /* SoftShakeDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftShakeDemoTests.h; sourceTree = "<group>"; };
 		DC20148214360B2A00F3EC20 /* SoftShakeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftShakeDemoTests.m; sourceTree = "<group>"; };
 		DC23177D14363EEF00D91876 /* iTunesArtwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iTunesArtwork.jpg; sourceTree = "<group>"; };
+		DC23177F1436406000D91876 /* Icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57x57.png"; sourceTree = "<group>"; };
+		DC2317811436406900D91876 /* Icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72x72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		DC20144214360B2900F3EC20 = {
 			isa = PBXGroup;
 			children = (
+				DC2317811436406900D91876 /* Icon-72x72.png */,
+				DC23177F1436406000D91876 /* Icon-57x57.png */,
 				DC20145714360B2900F3EC20 /* SoftShakeDemo */,
 				DC20147A14360B2A00F3EC20 /* SoftShakeDemoTests */,
 				DC20145014360B2900F3EC20 /* Frameworks */,
@@ -233,6 +239,8 @@
 				DC20146914360B2A00F3EC20 /* SoftShakeDemoViewController_iPhone.xib in Resources */,
 				DC20146C14360B2A00F3EC20 /* SoftShakeDemoViewController_iPad.xib in Resources */,
 				DC23177E14363EEF00D91876 /* iTunesArtwork.jpg in Resources */,
+				DC2317801436406000D91876 /* Icon-57x57.png in Resources */,
+				DC2317821436406900D91876 /* Icon-72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
