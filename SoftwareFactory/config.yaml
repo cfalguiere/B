@@ -10,7 +10,7 @@ clone_folder: '../privatebuild'
 #ssh_path: '~/SoftwareFactory/ssh/id_rsa_valtech_mobile_store'
 #www_path: '/var/www/'
 
-server: 'gris'
+server: '10.28.0.38'
 user: 'cfalguiere'
 ssh_path: '~/.ssh/id_rsa'
 www_path: '/Library/WebServer/Documents/mobilestore'
