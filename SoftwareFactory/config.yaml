@@ -14,7 +14,7 @@ clone_folder: '../privatebuild'
 server: '10.28.0.38'
 user: 'cfalguiere'
 ssh_path: '~/.ssh/id_rsa'
-store_path: '/mobilestore'
+store_path: '/mobilestore'  # note the leading /
 www_path: '/Library/WebServer/Documents/mobilestore'
 
 sign: 'iPhone Developer'
